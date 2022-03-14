@@ -1,2 +1,2 @@
 # math101
-## An experimental open-source scientific calculator
+An experimental open-source scientific calculator
