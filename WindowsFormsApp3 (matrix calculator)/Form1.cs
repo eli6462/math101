@@ -16,5 +16,9 @@ namespace WindowsFormsApp3__matrix_calculator_
         {
             InitializeComponent();
         }
+
+    
     }
+
+
 }
