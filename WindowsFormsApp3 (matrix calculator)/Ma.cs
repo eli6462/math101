@@ -18,6 +18,20 @@ namespace WindowsFormsApp3__matrix_calculator_
             InitializeComponent();
         }
 
+        // loop thru textboxes
+        
+
+        private void test()
+        {
+            foreach (Control c in Controls)
+            {
+                if (c is TextBox)
+                {
+                    c.Text = "9";
+                }
+            }
+        }
+
         private void Form2_Load(object sender, EventArgs e)
         {
             
@@ -27,8 +41,29 @@ namespace WindowsFormsApp3__matrix_calculator_
             
         }
         private void button1_Click(object sender, EventArgs e)
-        {
+        {            
+            test();
 
+            //test
+            /*
+            for (int i = 0; i < matrixA.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrixA.GetLength(1); j++)
+                {
+                    testTextBox.Text += matrixA[i, j];
+                }
+                Console.WriteLine();
+            }
+            */
+        }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                testTextBox.Text += "test "+i+", ";
+            }
+            
         }
     }
 }
