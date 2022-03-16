@@ -21,13 +21,28 @@ namespace WindowsFormsApp3__matrix_calculator_
         // loop thru textboxes
         
 
-        private void test()
+        private void initMatrix(GroupBox gBox, int[,] arr2d)
         {
-            foreach (Control c in Controls)
+            int i = 0, j = 0;
+
+            foreach (Control c in gBox.Controls)
             {
-                if (c is TextBox)
+                if (c is TextBox)                                    
                 {
-                    c.Text = "9";
+                    arr2d[i,j] = int.Parse(c.Text);
+
+                    // this code loops thru all indexes of arr2d (all possible i AND j combinations)
+                    if (j < arr2d.GetLength(1)-1 && i <= arr2d.GetLength(0)-1)
+                    {
+                        j++;
+                    }
+                    else if (j >= arr2d.GetLength(1)-1 && i <= arr2d.GetLength(0)-2)
+                    {
+                        j = 0;
+                        i++;
+                    }
+                    else
+                        break;
                 }
             }
         }
@@ -35,35 +50,24 @@ namespace WindowsFormsApp3__matrix_calculator_
         private void Form2_Load(object sender, EventArgs e)
         {
             
-        }
-        private void initMatrixA()
-        {
-            
-        }
+        }        
         private void button1_Click(object sender, EventArgs e)
-        {            
-            test();
+        {
+            initMatrix(groupBox2, matrixA);
 
             //test
-            /*
+            
             for (int i = 0; i < matrixA.GetLength(0); i++)
             {
                 for (int j = 0; j < matrixA.GetLength(1); j++)
                 {
                     testTextBox.Text += matrixA[i, j];
                 }
-                Console.WriteLine();
+                testTextBox.Text += "\n";
             }
-            */
+                       
         }
 
-        private void btnTest_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                testTextBox.Text += "test "+i+", ";
-            }
-            
-        }
+        
     }
 }
