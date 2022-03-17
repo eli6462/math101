@@ -74,18 +74,25 @@ namespace WindowsFormsApp3__matrix_calculator_
         private void Form2_Load(object sender, EventArgs e)
         {
             
-        }      
-
-        private void btnMatrixInterface_Click(object sender, EventArgs e)
+        }        
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.userControl11.Show();
-            this.funcUserControl11.Hide();
+            //initMatrix(groupBox2, matrixA);
+            initMatrixTEST(groupBox3, matrixA);
+
+            //test
+
+            for (int i = 0; i < matrixA.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrixA.GetLength(1); j++)
+                {
+                    testTextBox.Text += matrixA[i, j];
+                }
+                testTextBox.Text += "\n n ";
+            }
+                       
         }
 
-        private void btnFunctionInterface_Click(object sender, EventArgs e)
-        {
-            this.userControl11.Hide();
-            this.funcUserControl11.Show();
-        }
+        
     }
 }
