@@ -18,9 +18,9 @@ namespace WindowsFormsApp3__matrix_calculator_
             InitializeComponent();
         }
 
-        // loop thru textboxes
-        
 
+
+        // loop thru textboxes
         private void initMatrix(GroupBox gBox, int[,] arr2d)
         {
             int i = 0, j = 0;
@@ -47,23 +47,48 @@ namespace WindowsFormsApp3__matrix_calculator_
             }
         }
 
+        private void initMatrixTEST(GroupBox gBox, int[,] arr2d)
+        {            
+
+            foreach (Control c in gBox.Controls)
+            {
+                if (c is TextBox)
+                {
+                    // nested loop that checks what is the name of the currect textbox, and assigns textbox value to matching arr2d element.
+                    // the problem - the algorithm may have too big of a Big O complication
+                    for (int i = 0; i < arr2d.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < arr2d.GetLength(1); j++)
+                        {                            
+                            if (c.Name == ("resultMatrix" + (i+1).ToString()+"_"+ (j + 1).ToString()))
+                            {                                
+                                arr2d[i, j] = int.Parse(c.Text);
+                            }
+                        }
+                    }
+                                       
+                }
+            }
+        }
+
         private void Form2_Load(object sender, EventArgs e)
         {
             
         }        
         private void button1_Click(object sender, EventArgs e)
         {
-            initMatrix(groupBox2, matrixA);
+            //initMatrix(groupBox2, matrixA);
+            initMatrixTEST(groupBox3, matrixA);
 
             //test
-            
+
             for (int i = 0; i < matrixA.GetLength(0); i++)
             {
                 for (int j = 0; j < matrixA.GetLength(1); j++)
                 {
                     testTextBox.Text += matrixA[i, j];
                 }
-                testTextBox.Text += "\n";
+                testTextBox.Text += "\n n ";
             }
                        
         }

@@ -47,8 +47,8 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.resultMatrix1_1 = new System.Windows.Forms.TextBox();
             this.resultMatrix3_3 = new System.Windows.Forms.TextBox();
@@ -63,6 +63,15 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.testTextBox = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -216,19 +225,19 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.textBox17.Size = new System.Drawing.Size(28, 20);
             this.textBox17.TabIndex = 32;
             // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(87, 47);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(28, 20);
-            this.textBox15.TabIndex = 33;
-            // 
             // textBox16
             // 
             this.textBox16.Location = new System.Drawing.Point(53, 73);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(28, 20);
             this.textBox16.TabIndex = 35;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(87, 47);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(28, 20);
+            this.textBox15.TabIndex = 33;
             // 
             // groupBox3
             // 
@@ -350,18 +359,90 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.testTextBox.Size = new System.Drawing.Size(206, 135);
             this.testTextBox.TabIndex = 36;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(560, 293);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(28, 20);
+            this.textBox1.TabIndex = 30;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(628, 345);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(28, 20);
+            this.textBox2.TabIndex = 38;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(594, 293);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(28, 20);
+            this.textBox3.TabIndex = 31;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(594, 345);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(28, 20);
+            this.textBox4.TabIndex = 37;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(628, 293);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(28, 20);
+            this.textBox5.TabIndex = 32;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(560, 345);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(28, 20);
+            this.textBox6.TabIndex = 36;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(560, 319);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(28, 20);
+            this.textBox7.TabIndex = 33;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(628, 319);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(28, 20);
+            this.textBox8.TabIndex = 35;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(594, 319);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(28, 20);
+            this.textBox9.TabIndex = 34;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.testTextBox);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.textBox9);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -412,5 +493,14 @@ namespace WindowsFormsApp3__matrix_calculator_
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
     }
 }
