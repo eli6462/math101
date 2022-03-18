@@ -79,13 +79,24 @@ namespace WindowsFormsApp3__matrix_calculator_
         private void btnMatrixInterface_Click(object sender, EventArgs e)
         {
             this.userControl11.Show();
+            this.testUserControl21.Hide();
+
             this.funcUserControl11.Hide();
         }
 
         private void btnFunctionInterface_Click(object sender, EventArgs e)
         {
             this.userControl11.Hide();
+            this.testUserControl21.Hide();
             this.funcUserControl11.Show();
+        }
+
+        private void btnTestInerface_click(object sender, EventArgs e)
+        {
+            this.userControl11.Hide();
+            this.funcUserControl11.Hide();
+
+            this.testUserControl21.Show();
         }
     }
 }
