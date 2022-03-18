@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp3__matrix_calculator_
 {
-    partial class FuncUserControl1
+    partial class FuncUserControl
     {
         /// <summary> 
         /// Required designer variable.

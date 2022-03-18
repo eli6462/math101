@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3__matrix_calculator_
 {
-    public partial class FuncUserControl1 : UserControl
+    public partial class TestUserControl : UserControl
     {
-        public FuncUserControl1()
+        public TestUserControl()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
