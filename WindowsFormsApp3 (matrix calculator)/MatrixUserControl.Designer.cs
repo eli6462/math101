@@ -39,37 +39,37 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.resultMatrix1_1 = new System.Windows.Forms.TextBox();
-            this.resultMatrix3_3 = new System.Windows.Forms.TextBox();
-            this.resultMatrix1_2 = new System.Windows.Forms.TextBox();
-            this.resultMatrix3_2 = new System.Windows.Forms.TextBox();
-            this.resultMatrix1_3 = new System.Windows.Forms.TextBox();
-            this.resultMatrix3_1 = new System.Windows.Forms.TextBox();
-            this.resultMatrix2_1 = new System.Windows.Forms.TextBox();
-            this.resultMatrix2_3 = new System.Windows.Forms.TextBox();
-            this.resultMatrix2_2 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix1_1 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix3_3 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix1_2 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix3_2 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix1_3 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix3_1 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix2_1 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix2_3 = new System.Windows.Forms.TextBox();
+            this.txtResultMatrix2_2 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB1_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB1_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB1_3 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB2_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB2_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB3_3 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB3_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB3_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixB2_3 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.matrixA1_1 = new System.Windows.Forms.TextBox();
-            this.matrixA3_3 = new System.Windows.Forms.TextBox();
-            this.matrixA1_2 = new System.Windows.Forms.TextBox();
-            this.matrixA3_2 = new System.Windows.Forms.TextBox();
-            this.matrixA2_2 = new System.Windows.Forms.TextBox();
-            this.matrixA2_1 = new System.Windows.Forms.TextBox();
-            this.matrixA2_3 = new System.Windows.Forms.TextBox();
-            this.matrixA1_3 = new System.Windows.Forms.TextBox();
-            this.matrixA3_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA1_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA1_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA1_3 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA2_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA2_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA2_3 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA3_1 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA3_2 = new System.Windows.Forms.TextBox();
+            this.txtMatrixA3_3 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -150,15 +150,15 @@ namespace WindowsFormsApp3__matrix_calculator_
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.resultMatrix1_1);
-            this.groupBox3.Controls.Add(this.resultMatrix3_3);
-            this.groupBox3.Controls.Add(this.resultMatrix1_2);
-            this.groupBox3.Controls.Add(this.resultMatrix3_2);
-            this.groupBox3.Controls.Add(this.resultMatrix1_3);
-            this.groupBox3.Controls.Add(this.resultMatrix3_1);
-            this.groupBox3.Controls.Add(this.resultMatrix2_1);
-            this.groupBox3.Controls.Add(this.resultMatrix2_3);
-            this.groupBox3.Controls.Add(this.resultMatrix2_2);
+            this.groupBox3.Controls.Add(this.txtResultMatrix1_1);
+            this.groupBox3.Controls.Add(this.txtResultMatrix3_3);
+            this.groupBox3.Controls.Add(this.txtResultMatrix1_2);
+            this.groupBox3.Controls.Add(this.txtResultMatrix3_2);
+            this.groupBox3.Controls.Add(this.txtResultMatrix1_3);
+            this.groupBox3.Controls.Add(this.txtResultMatrix3_1);
+            this.groupBox3.Controls.Add(this.txtResultMatrix2_1);
+            this.groupBox3.Controls.Add(this.txtResultMatrix2_3);
+            this.groupBox3.Controls.Add(this.txtResultMatrix2_2);
             this.groupBox3.Location = new System.Drawing.Point(563, 82);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(135, 111);
@@ -166,68 +166,68 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "result";
             // 
-            // resultMatrix1_1
+            // txtResultMatrix1_1
             // 
-            this.resultMatrix1_1.Location = new System.Drawing.Point(20, 19);
-            this.resultMatrix1_1.Name = "resultMatrix1_1";
-            this.resultMatrix1_1.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix1_1.TabIndex = 21;
+            this.txtResultMatrix1_1.Location = new System.Drawing.Point(20, 19);
+            this.txtResultMatrix1_1.Name = "txtResultMatrix1_1";
+            this.txtResultMatrix1_1.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix1_1.TabIndex = 21;
             // 
-            // resultMatrix3_3
+            // txtResultMatrix3_3
             // 
-            this.resultMatrix3_3.Location = new System.Drawing.Point(88, 71);
-            this.resultMatrix3_3.Name = "resultMatrix3_3";
-            this.resultMatrix3_3.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix3_3.TabIndex = 29;
+            this.txtResultMatrix3_3.Location = new System.Drawing.Point(88, 71);
+            this.txtResultMatrix3_3.Name = "txtResultMatrix3_3";
+            this.txtResultMatrix3_3.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix3_3.TabIndex = 29;
             // 
-            // resultMatrix1_2
+            // txtResultMatrix1_2
             // 
-            this.resultMatrix1_2.Location = new System.Drawing.Point(54, 19);
-            this.resultMatrix1_2.Name = "resultMatrix1_2";
-            this.resultMatrix1_2.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix1_2.TabIndex = 22;
+            this.txtResultMatrix1_2.Location = new System.Drawing.Point(54, 19);
+            this.txtResultMatrix1_2.Name = "txtResultMatrix1_2";
+            this.txtResultMatrix1_2.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix1_2.TabIndex = 22;
             // 
-            // resultMatrix3_2
+            // txtResultMatrix3_2
             // 
-            this.resultMatrix3_2.Location = new System.Drawing.Point(54, 71);
-            this.resultMatrix3_2.Name = "resultMatrix3_2";
-            this.resultMatrix3_2.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix3_2.TabIndex = 28;
+            this.txtResultMatrix3_2.Location = new System.Drawing.Point(54, 71);
+            this.txtResultMatrix3_2.Name = "txtResultMatrix3_2";
+            this.txtResultMatrix3_2.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix3_2.TabIndex = 28;
             // 
-            // resultMatrix1_3
+            // txtResultMatrix1_3
             // 
-            this.resultMatrix1_3.Location = new System.Drawing.Point(88, 19);
-            this.resultMatrix1_3.Name = "resultMatrix1_3";
-            this.resultMatrix1_3.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix1_3.TabIndex = 23;
+            this.txtResultMatrix1_3.Location = new System.Drawing.Point(88, 19);
+            this.txtResultMatrix1_3.Name = "txtResultMatrix1_3";
+            this.txtResultMatrix1_3.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix1_3.TabIndex = 23;
             // 
-            // resultMatrix3_1
+            // txtResultMatrix3_1
             // 
-            this.resultMatrix3_1.Location = new System.Drawing.Point(20, 71);
-            this.resultMatrix3_1.Name = "resultMatrix3_1";
-            this.resultMatrix3_1.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix3_1.TabIndex = 27;
+            this.txtResultMatrix3_1.Location = new System.Drawing.Point(20, 71);
+            this.txtResultMatrix3_1.Name = "txtResultMatrix3_1";
+            this.txtResultMatrix3_1.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix3_1.TabIndex = 27;
             // 
-            // resultMatrix2_1
+            // txtResultMatrix2_1
             // 
-            this.resultMatrix2_1.Location = new System.Drawing.Point(20, 45);
-            this.resultMatrix2_1.Name = "resultMatrix2_1";
-            this.resultMatrix2_1.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix2_1.TabIndex = 24;
+            this.txtResultMatrix2_1.Location = new System.Drawing.Point(20, 45);
+            this.txtResultMatrix2_1.Name = "txtResultMatrix2_1";
+            this.txtResultMatrix2_1.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix2_1.TabIndex = 24;
             // 
-            // resultMatrix2_3
+            // txtResultMatrix2_3
             // 
-            this.resultMatrix2_3.Location = new System.Drawing.Point(88, 45);
-            this.resultMatrix2_3.Name = "resultMatrix2_3";
-            this.resultMatrix2_3.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix2_3.TabIndex = 26;
+            this.txtResultMatrix2_3.Location = new System.Drawing.Point(88, 45);
+            this.txtResultMatrix2_3.Name = "txtResultMatrix2_3";
+            this.txtResultMatrix2_3.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix2_3.TabIndex = 26;
             // 
-            // resultMatrix2_2
+            // txtResultMatrix2_2
             // 
-            this.resultMatrix2_2.Location = new System.Drawing.Point(54, 45);
-            this.resultMatrix2_2.Name = "resultMatrix2_2";
-            this.resultMatrix2_2.Size = new System.Drawing.Size(28, 20);
-            this.resultMatrix2_2.TabIndex = 25;
+            this.txtResultMatrix2_2.Location = new System.Drawing.Point(54, 45);
+            this.txtResultMatrix2_2.Name = "txtResultMatrix2_2";
+            this.txtResultMatrix2_2.Size = new System.Drawing.Size(28, 20);
+            this.txtResultMatrix2_2.TabIndex = 25;
             // 
             // textBox7
             // 
@@ -238,15 +238,15 @@ namespace WindowsFormsApp3__matrix_calculator_
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox18);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox17);
-            this.groupBox2.Controls.Add(this.textBox16);
-            this.groupBox2.Controls.Add(this.textBox15);
+            this.groupBox2.Controls.Add(this.txtMatrixB1_1);
+            this.groupBox2.Controls.Add(this.txtMatrixB1_2);
+            this.groupBox2.Controls.Add(this.txtMatrixB1_3);
+            this.groupBox2.Controls.Add(this.txtMatrixB2_1);
+            this.groupBox2.Controls.Add(this.txtMatrixB2_2);
+            this.groupBox2.Controls.Add(this.txtMatrixB3_3);
+            this.groupBox2.Controls.Add(this.txtMatrixB3_1);
+            this.groupBox2.Controls.Add(this.txtMatrixB3_2);
+            this.groupBox2.Controls.Add(this.txtMatrixB2_3);
             this.groupBox2.Location = new System.Drawing.Point(340, 82);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(135, 111);
@@ -254,68 +254,68 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "matrix B";
             // 
-            // textBox10
+            // txtMatrixB1_1
             // 
-            this.textBox10.Location = new System.Drawing.Point(19, 19);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(28, 20);
-            this.textBox10.TabIndex = 30;
+            this.txtMatrixB1_1.Location = new System.Drawing.Point(19, 19);
+            this.txtMatrixB1_1.Name = "txtMatrixB1_1";
+            this.txtMatrixB1_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB1_1.TabIndex = 30;
             // 
-            // textBox11
+            // txtMatrixB1_2
             // 
-            this.textBox11.Location = new System.Drawing.Point(53, 19);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(28, 20);
-            this.textBox11.TabIndex = 38;
+            this.txtMatrixB1_2.Location = new System.Drawing.Point(53, 19);
+            this.txtMatrixB1_2.Name = "txtMatrixB1_2";
+            this.txtMatrixB1_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB1_2.TabIndex = 38;
             // 
-            // textBox18
+            // txtMatrixB1_3
             // 
-            this.textBox18.Location = new System.Drawing.Point(87, 19);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(28, 20);
-            this.textBox18.TabIndex = 36;
+            this.txtMatrixB1_3.Location = new System.Drawing.Point(87, 19);
+            this.txtMatrixB1_3.Name = "txtMatrixB1_3";
+            this.txtMatrixB1_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB1_3.TabIndex = 36;
             // 
-            // textBox13
+            // txtMatrixB2_1
             // 
-            this.textBox13.Location = new System.Drawing.Point(19, 47);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(28, 20);
-            this.textBox13.TabIndex = 37;
+            this.txtMatrixB2_1.Location = new System.Drawing.Point(19, 47);
+            this.txtMatrixB2_1.Name = "txtMatrixB2_1";
+            this.txtMatrixB2_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB2_1.TabIndex = 37;
             // 
-            // textBox14
+            // txtMatrixB2_2
             // 
-            this.textBox14.Location = new System.Drawing.Point(53, 47);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(28, 20);
-            this.textBox14.TabIndex = 34;
+            this.txtMatrixB2_2.Location = new System.Drawing.Point(53, 47);
+            this.txtMatrixB2_2.Name = "txtMatrixB2_2";
+            this.txtMatrixB2_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB2_2.TabIndex = 34;
             // 
-            // textBox12
+            // txtMatrixB3_3
             // 
-            this.textBox12.Location = new System.Drawing.Point(87, 73);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(28, 20);
-            this.textBox12.TabIndex = 31;
+            this.txtMatrixB3_3.Location = new System.Drawing.Point(87, 73);
+            this.txtMatrixB3_3.Name = "txtMatrixB3_3";
+            this.txtMatrixB3_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB3_3.TabIndex = 31;
             // 
-            // textBox17
+            // txtMatrixB3_1
             // 
-            this.textBox17.Location = new System.Drawing.Point(19, 73);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(28, 20);
-            this.textBox17.TabIndex = 32;
+            this.txtMatrixB3_1.Location = new System.Drawing.Point(19, 73);
+            this.txtMatrixB3_1.Name = "txtMatrixB3_1";
+            this.txtMatrixB3_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB3_1.TabIndex = 32;
             // 
-            // textBox16
+            // txtMatrixB3_2
             // 
-            this.textBox16.Location = new System.Drawing.Point(53, 73);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(28, 20);
-            this.textBox16.TabIndex = 35;
+            this.txtMatrixB3_2.Location = new System.Drawing.Point(53, 73);
+            this.txtMatrixB3_2.Name = "txtMatrixB3_2";
+            this.txtMatrixB3_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB3_2.TabIndex = 35;
             // 
-            // textBox15
+            // txtMatrixB2_3
             // 
-            this.textBox15.Location = new System.Drawing.Point(87, 47);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(28, 20);
-            this.textBox15.TabIndex = 33;
+            this.txtMatrixB2_3.Location = new System.Drawing.Point(87, 47);
+            this.txtMatrixB2_3.Name = "txtMatrixB2_3";
+            this.txtMatrixB2_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixB2_3.TabIndex = 33;
             // 
             // textBox8
             // 
@@ -326,15 +326,15 @@ namespace WindowsFormsApp3__matrix_calculator_
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.matrixA1_1);
-            this.groupBox1.Controls.Add(this.matrixA3_3);
-            this.groupBox1.Controls.Add(this.matrixA1_2);
-            this.groupBox1.Controls.Add(this.matrixA3_2);
-            this.groupBox1.Controls.Add(this.matrixA2_2);
-            this.groupBox1.Controls.Add(this.matrixA2_1);
-            this.groupBox1.Controls.Add(this.matrixA2_3);
-            this.groupBox1.Controls.Add(this.matrixA1_3);
-            this.groupBox1.Controls.Add(this.matrixA3_1);
+            this.groupBox1.Controls.Add(this.txtMatrixA1_1);
+            this.groupBox1.Controls.Add(this.txtMatrixA1_2);
+            this.groupBox1.Controls.Add(this.txtMatrixA1_3);
+            this.groupBox1.Controls.Add(this.txtMatrixA2_1);
+            this.groupBox1.Controls.Add(this.txtMatrixA2_2);
+            this.groupBox1.Controls.Add(this.txtMatrixA2_3);
+            this.groupBox1.Controls.Add(this.txtMatrixA3_1);
+            this.groupBox1.Controls.Add(this.txtMatrixA3_2);
+            this.groupBox1.Controls.Add(this.txtMatrixA3_3);
             this.groupBox1.Location = new System.Drawing.Point(119, 82);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(135, 111);
@@ -342,68 +342,68 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "matrix A";
             // 
-            // matrixA1_1
+            // txtMatrixA1_1
             // 
-            this.matrixA1_1.Location = new System.Drawing.Point(20, 19);
-            this.matrixA1_1.Name = "matrixA1_1";
-            this.matrixA1_1.Size = new System.Drawing.Size(28, 20);
-            this.matrixA1_1.TabIndex = 21;
+            this.txtMatrixA1_1.Location = new System.Drawing.Point(20, 19);
+            this.txtMatrixA1_1.Name = "txtMatrixA1_1";
+            this.txtMatrixA1_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA1_1.TabIndex = 21;
             // 
-            // matrixA3_3
+            // txtMatrixA1_2
             // 
-            this.matrixA3_3.Location = new System.Drawing.Point(54, 19);
-            this.matrixA3_3.Name = "matrixA3_3";
-            this.matrixA3_3.Size = new System.Drawing.Size(28, 20);
-            this.matrixA3_3.TabIndex = 29;
+            this.txtMatrixA1_2.Location = new System.Drawing.Point(54, 19);
+            this.txtMatrixA1_2.Name = "txtMatrixA1_2";
+            this.txtMatrixA1_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA1_2.TabIndex = 29;
             // 
-            // matrixA1_2
+            // txtMatrixA1_3
             // 
-            this.matrixA1_2.Location = new System.Drawing.Point(88, 19);
-            this.matrixA1_2.Name = "matrixA1_2";
-            this.matrixA1_2.Size = new System.Drawing.Size(28, 20);
-            this.matrixA1_2.TabIndex = 22;
+            this.txtMatrixA1_3.Location = new System.Drawing.Point(88, 19);
+            this.txtMatrixA1_3.Name = "txtMatrixA1_3";
+            this.txtMatrixA1_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA1_3.TabIndex = 22;
             // 
-            // matrixA3_2
+            // txtMatrixA2_1
             // 
-            this.matrixA3_2.Location = new System.Drawing.Point(20, 45);
-            this.matrixA3_2.Name = "matrixA3_2";
-            this.matrixA3_2.Size = new System.Drawing.Size(28, 20);
-            this.matrixA3_2.TabIndex = 28;
+            this.txtMatrixA2_1.Location = new System.Drawing.Point(20, 45);
+            this.txtMatrixA2_1.Name = "txtMatrixA2_1";
+            this.txtMatrixA2_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA2_1.TabIndex = 28;
             // 
-            // matrixA2_2
+            // txtMatrixA2_2
             // 
-            this.matrixA2_2.Location = new System.Drawing.Point(54, 45);
-            this.matrixA2_2.Name = "matrixA2_2";
-            this.matrixA2_2.Size = new System.Drawing.Size(28, 20);
-            this.matrixA2_2.TabIndex = 25;
+            this.txtMatrixA2_2.Location = new System.Drawing.Point(54, 45);
+            this.txtMatrixA2_2.Name = "txtMatrixA2_2";
+            this.txtMatrixA2_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA2_2.TabIndex = 25;
             // 
-            // matrixA2_1
+            // txtMatrixA2_3
             // 
-            this.matrixA2_1.Location = new System.Drawing.Point(88, 45);
-            this.matrixA2_1.Name = "matrixA2_1";
-            this.matrixA2_1.Size = new System.Drawing.Size(28, 20);
-            this.matrixA2_1.TabIndex = 24;
+            this.txtMatrixA2_3.Location = new System.Drawing.Point(88, 45);
+            this.txtMatrixA2_3.Name = "txtMatrixA2_3";
+            this.txtMatrixA2_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA2_3.TabIndex = 24;
             // 
-            // matrixA2_3
+            // txtMatrixA3_1
             // 
-            this.matrixA2_3.Location = new System.Drawing.Point(20, 71);
-            this.matrixA2_3.Name = "matrixA2_3";
-            this.matrixA2_3.Size = new System.Drawing.Size(28, 20);
-            this.matrixA2_3.TabIndex = 26;
+            this.txtMatrixA3_1.Location = new System.Drawing.Point(20, 71);
+            this.txtMatrixA3_1.Name = "txtMatrixA3_1";
+            this.txtMatrixA3_1.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA3_1.TabIndex = 26;
             // 
-            // matrixA1_3
+            // txtMatrixA3_2
             // 
-            this.matrixA1_3.Location = new System.Drawing.Point(54, 71);
-            this.matrixA1_3.Name = "matrixA1_3";
-            this.matrixA1_3.Size = new System.Drawing.Size(28, 20);
-            this.matrixA1_3.TabIndex = 23;
+            this.txtMatrixA3_2.Location = new System.Drawing.Point(54, 71);
+            this.txtMatrixA3_2.Name = "txtMatrixA3_2";
+            this.txtMatrixA3_2.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA3_2.TabIndex = 23;
             // 
-            // matrixA3_1
+            // txtMatrixA3_3
             // 
-            this.matrixA3_1.Location = new System.Drawing.Point(88, 71);
-            this.matrixA3_1.Name = "matrixA3_1";
-            this.matrixA3_1.Size = new System.Drawing.Size(28, 20);
-            this.matrixA3_1.TabIndex = 27;
+            this.txtMatrixA3_3.Location = new System.Drawing.Point(88, 71);
+            this.txtMatrixA3_3.Name = "txtMatrixA3_3";
+            this.txtMatrixA3_3.Size = new System.Drawing.Size(28, 20);
+            this.txtMatrixA3_3.TabIndex = 27;
             // 
             // textBox9
             // 
@@ -456,37 +456,37 @@ namespace WindowsFormsApp3__matrix_calculator_
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox resultMatrix1_1;
-        private System.Windows.Forms.TextBox resultMatrix3_3;
-        private System.Windows.Forms.TextBox resultMatrix1_2;
-        private System.Windows.Forms.TextBox resultMatrix3_2;
-        private System.Windows.Forms.TextBox resultMatrix1_3;
-        private System.Windows.Forms.TextBox resultMatrix3_1;
-        private System.Windows.Forms.TextBox resultMatrix2_1;
-        private System.Windows.Forms.TextBox resultMatrix2_3;
-        private System.Windows.Forms.TextBox resultMatrix2_2;
+        private System.Windows.Forms.TextBox txtResultMatrix1_1;
+        private System.Windows.Forms.TextBox txtResultMatrix3_3;
+        private System.Windows.Forms.TextBox txtResultMatrix1_2;
+        private System.Windows.Forms.TextBox txtResultMatrix3_2;
+        private System.Windows.Forms.TextBox txtResultMatrix1_3;
+        private System.Windows.Forms.TextBox txtResultMatrix3_1;
+        private System.Windows.Forms.TextBox txtResultMatrix2_1;
+        private System.Windows.Forms.TextBox txtResultMatrix2_3;
+        private System.Windows.Forms.TextBox txtResultMatrix2_2;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtMatrixB1_1;
+        private System.Windows.Forms.TextBox txtMatrixB1_2;
+        private System.Windows.Forms.TextBox txtMatrixB1_3;
+        private System.Windows.Forms.TextBox txtMatrixB2_1;
+        private System.Windows.Forms.TextBox txtMatrixB2_2;
+        private System.Windows.Forms.TextBox txtMatrixB3_3;
+        private System.Windows.Forms.TextBox txtMatrixB3_1;
+        private System.Windows.Forms.TextBox txtMatrixB3_2;
+        private System.Windows.Forms.TextBox txtMatrixB2_3;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox matrixA1_1;
-        private System.Windows.Forms.TextBox matrixA3_3;
-        private System.Windows.Forms.TextBox matrixA1_2;
-        private System.Windows.Forms.TextBox matrixA3_2;
-        private System.Windows.Forms.TextBox matrixA2_2;
-        private System.Windows.Forms.TextBox matrixA2_1;
-        private System.Windows.Forms.TextBox matrixA2_3;
-        private System.Windows.Forms.TextBox matrixA1_3;
-        private System.Windows.Forms.TextBox matrixA3_1;
+        private System.Windows.Forms.TextBox txtMatrixA1_1;
+        private System.Windows.Forms.TextBox txtMatrixA1_2;
+        private System.Windows.Forms.TextBox txtMatrixA1_3;
+        private System.Windows.Forms.TextBox txtMatrixA2_1;
+        private System.Windows.Forms.TextBox txtMatrixA2_2;
+        private System.Windows.Forms.TextBox txtMatrixA2_3;
+        private System.Windows.Forms.TextBox txtMatrixA3_1;
+        private System.Windows.Forms.TextBox txtMatrixA3_2;
+        private System.Windows.Forms.TextBox txtMatrixA3_3;
         private System.Windows.Forms.TextBox textBox9;
     }
 }

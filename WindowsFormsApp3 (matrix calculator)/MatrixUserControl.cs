@@ -19,57 +19,39 @@ namespace WindowsFormsApp3__matrix_calculator_
 
         private static int[,] matrixA = new int[3, 3];
         private static int[,] matrixB = new int[3, 3];
-        private static int[,] resultmatrix = new int[3, 3];
+        private static int[,] resultMatrix = new int[3, 3];
         private void button1_Click(object sender, EventArgs e)
-        {
-            //initMatrix(groupBox2, matrixA);
-            initMatrixTEST(groupBox3, matrixA);
+        {            
+            initMatrix(groupBox1, matrixA);
+            initMatrix(groupBox2, matrixB);            
 
-            //test
+            //test print
 
-            for (int i = 0; i < matrixA.GetLength(0); i++)
-            {
-                for (int j = 0; j < matrixA.GetLength(1); j++)
-                {
-                    testTextBox.Text += matrixA[i, j];
-                }
-                testTextBox.Text += "\n n ";
-            }
+            testPrintArray2d(matrixA);
+            testPrintArray2d(matrixB);            
 
             // resultMatrix = MatrixHandler.combineMatrixes(matrixA, matrixB);
 
             // print result matrix to user FUNC
+        }        
+        
+        private void testPrintArray2d(int[,] arr2d)
+        {
+            for (int i = 0; i < arr2d.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr2d.GetLength(1); j++)
+                {
+                    testTextBox.Text += arr2d[i, j];
+                }
+                testTextBox.Text += "\n n ";
+            }
+            testTextBox.Text += " NEXT arr: ";
         }
 
-        // loop thru textboxes
+        // loop thru textboxes and take input
         private void initMatrix(GroupBox gBox, int[,] arr2d)
         {
-            int i = 0, j = 0;
-
-            foreach (Control c in gBox.Controls)
-            {
-                if (c is TextBox)
-                {
-                    arr2d[i, j] = int.Parse(c.Text);
-
-                    // this code loops thru all indexes of arr2d (all possible i AND j combinations)
-                    if (j < arr2d.GetLength(1) - 1 && i <= arr2d.GetLength(0) - 1)
-                    {
-                        j++;
-                    }
-                    else if (j >= arr2d.GetLength(1) - 1 && i <= arr2d.GetLength(0) - 2)
-                    {
-                        j = 0;
-                        i++;
-                    }
-                    else
-                        break;
-                }
-            }
-        }
-
-        private void initMatrixTEST(GroupBox gBox, int[,] arr2d)
-        {
+            string gBoxName = choseGroupBox(gBox);
 
             foreach (Control c in gBox.Controls)
             {
@@ -81,7 +63,7 @@ namespace WindowsFormsApp3__matrix_calculator_
                     {
                         for (int j = 0; j < arr2d.GetLength(1); j++)
                         {
-                            if (c.Name == ("resultMatrix" + (i + 1).ToString() + "_" + (j + 1).ToString()))
+                            if (c.Name == (gBoxName + (i + 1).ToString() + "_" + (j + 1).ToString()))
                             {
                                 arr2d[i, j] = int.Parse(c.Text);
                             }
@@ -89,6 +71,28 @@ namespace WindowsFormsApp3__matrix_calculator_
                     }
 
                 }
+            }
+        }
+        // adjust name of groupBox - textboxes to: name of groupbox
+        private string choseGroupBox(GroupBox gbox)
+        {
+            if (gbox.Name == "groupBox1")
+            {
+                return "txtMatrixA";
+            }
+            else if (gbox.Name == "groupBox2")
+            {
+                return "txtMatrixB";
+            }
+            else if (gbox.Name == "groupBox3")
+            {
+                return "txtResultMatrix";
+            }
+            else
+            {
+                return "ERROR";
+                string message = "ERROR in function \"choseGroupBox(GroupBox gbox)\",\n Entered parameter does not match.";
+                MessageBox.Show(message);
             }
         }
 
