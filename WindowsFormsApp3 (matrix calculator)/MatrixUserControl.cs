@@ -20,24 +20,39 @@ namespace WindowsFormsApp3__matrix_calculator_
         private static int[,] matrixA = new int[3, 3];
         private static int[,] matrixB = new int[3, 3];
         private static int[,] resultMatrix = new int[3, 3];
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAddMatrixes_Click(object sender, EventArgs e)
         {            
             initMatrix(groupBox1, matrixA);
-            //initMatrix(groupBox2, matrixB);
-            resultMatrix = matrixA;
+            initMatrix(groupBox2, matrixB);
+
+            resultMatrix = MatrixHandler.addMatrixes(matrixA, matrixB);
+
+            // print result matrix to user FUNC
             printResultMatrix(resultMatrix);
 
 
             //test print
 
-            testPrintArray2d(matrixA);
-            testPrintArray2d(matrixB);            
+            //testPrintArray2d(matrixA);
+            //testPrintArray2d(matrixB);            
 
-            // resultMatrix = MatrixHandler.combineMatrixes(matrixA, matrixB);
+            
+
+            
+        }
+
+        private void btnSubMatrixes_Click(object sender, EventArgs e)
+        {
+            initMatrix(groupBox1, matrixA);
+            initMatrix(groupBox2, matrixB);
+
+            resultMatrix = MatrixHandler.subMatrixes(matrixA, matrixB);
 
             // print result matrix to user FUNC
-        }        
-        
+            printResultMatrix(resultMatrix);                      
+
+        }
+
         private void testPrintArray2d(int[,] arr2d)
         {
             for (int i = 0; i < arr2d.GetLength(0); i++)
@@ -121,6 +136,6 @@ namespace WindowsFormsApp3__matrix_calculator_
             
         }
 
-
+    
     }
 }
