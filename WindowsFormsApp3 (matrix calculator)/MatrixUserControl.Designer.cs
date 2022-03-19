@@ -63,6 +63,7 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.txtMatrixA3_2 = new System.Windows.Forms.TextBox();
             this.txtMatrixA3_3 = new System.Windows.Forms.TextBox();
             this.btnSubMatrixes = new System.Windows.Forms.Button();
+            this.btnMultiMatrixes = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -352,10 +353,22 @@ namespace WindowsFormsApp3__matrix_calculator_
             this.btnSubMatrixes.UseVisualStyleBackColor = true;
             this.btnSubMatrixes.Click += new System.EventHandler(this.btnSubMatrixes_Click);
             // 
+            // btnMultiMatrixes
+            // 
+            this.btnMultiMatrixes.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiMatrixes.Location = new System.Drawing.Point(260, 129);
+            this.btnMultiMatrixes.Name = "btnMultiMatrixes";
+            this.btnMultiMatrixes.Size = new System.Drawing.Size(30, 30);
+            this.btnMultiMatrixes.TabIndex = 52;
+            this.btnMultiMatrixes.Text = "x";
+            this.btnMultiMatrixes.UseVisualStyleBackColor = true;
+            this.btnMultiMatrixes.Click += new System.EventHandler(this.btnMultiMatrixes_Click);
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnMultiMatrixes);
             this.Controls.Add(this.btnSubMatrixes);
             this.Controls.Add(this.testTextBox);
             this.Controls.Add(this.btnAddMatrixes);
@@ -411,5 +424,6 @@ namespace WindowsFormsApp3__matrix_calculator_
         private System.Windows.Forms.TextBox txtMatrixA3_2;
         private System.Windows.Forms.TextBox txtMatrixA3_3;
         private System.Windows.Forms.Button btnSubMatrixes;
+        private System.Windows.Forms.Button btnMultiMatrixes;
     }
 }

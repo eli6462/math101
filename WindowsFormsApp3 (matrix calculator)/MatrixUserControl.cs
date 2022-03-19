@@ -27,17 +27,8 @@ namespace WindowsFormsApp3__matrix_calculator_
 
             resultMatrix = MatrixHandler.addMatrixes(matrixA, matrixB);
 
-            // print result matrix to user FUNC
+            // print result matrix to user 
             printResultMatrix(resultMatrix);
-
-
-            //test print
-
-            //testPrintArray2d(matrixA);
-            //testPrintArray2d(matrixB);            
-
-            
-
             
         }
 
@@ -48,7 +39,7 @@ namespace WindowsFormsApp3__matrix_calculator_
 
             resultMatrix = MatrixHandler.subMatrixes(matrixA, matrixB);
 
-            // print result matrix to user FUNC
+            // print result matrix to user 
             printResultMatrix(resultMatrix);                      
 
         }
@@ -136,6 +127,14 @@ namespace WindowsFormsApp3__matrix_calculator_
             
         }
 
-    
+        private void btnMultiMatrixes_Click(object sender, EventArgs e)
+        {
+            initMatrix(groupBox1, matrixA);
+            initMatrix(groupBox2, matrixB);
+
+            resultMatrix = MatrixHandler.multiMatrixes(matrixA, matrixB);
+
+            printResultMatrix(resultMatrix);
+        }
     }
 }
