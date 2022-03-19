@@ -11,3 +11,17 @@ C:\Users\ELI\Source\Repos\eli6462\math101\WindowsFormsApp3 (matrix calculator)\o
 C:\Users\ELI\Source\Repos\eli6462\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).csproj.AssemblyReference.cache
 C:\Users\ELI\Source\Repos\eli6462\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.FuncUserControl.resources
 C:\Users\ELI\Source\Repos\eli6462\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.TestUserControl.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\bin\Debug\WindowsFormsApp3 (matrix calculator).exe.config
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\bin\Debug\WindowsFormsApp3 (matrix calculator).exe
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\bin\Debug\WindowsFormsApp3 (matrix calculator).pdb
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).csproj.AssemblyReference.cache
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).csproj.SuggestedBindingRedirects.cache
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.FuncUserControl.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.Form2.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.Properties.Resources.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.UserControl1.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3__matrix_calculator_.TestUserControl.resources
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).csproj.GenerateResource.cache
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).csproj.CoreCompileInputs.cache
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).exe
+C:\Users\repti\Documents\GitHub\math101\WindowsFormsApp3 (matrix calculator)\obj\Debug\WindowsFormsApp3 (matrix calculator).pdb

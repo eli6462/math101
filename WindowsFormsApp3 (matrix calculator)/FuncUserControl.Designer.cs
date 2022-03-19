@@ -29,43 +29,59 @@ namespace WindowsFormsApp3__matrix_calculator_
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.inputBox = new System.Windows.Forms.TextBox();
+            this.resolveBtn = new System.Windows.Forms.Button();
+            this.resultBox = new System.Windows.Forms.TextBox();
+            this.instructionsLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // inputBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(258, 128);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(230, 20);
-            this.textBox1.TabIndex = 0;
+            this.inputBox.Location = new System.Drawing.Point(344, 158);
+            this.inputBox.Margin = new System.Windows.Forms.Padding(4);
+            this.inputBox.Name = "inputBox";
+            this.inputBox.Size = new System.Drawing.Size(305, 22);
+            this.inputBox.TabIndex = 0;
             // 
-            // button2
+            // resolveBtn
             // 
-            this.button2.Location = new System.Drawing.Point(334, 166);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Find X";
-            this.button2.UseVisualStyleBackColor = true;
+            this.resolveBtn.Location = new System.Drawing.Point(445, 204);
+            this.resolveBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.resolveBtn.Name = "resolveBtn";
+            this.resolveBtn.Size = new System.Drawing.Size(100, 28);
+            this.resolveBtn.TabIndex = 2;
+            this.resolveBtn.Text = "Find X";
+            this.resolveBtn.UseVisualStyleBackColor = true;
+            this.resolveBtn.Click += new System.EventHandler(this.resolveBtn_Click);
             // 
-            // textBox2
+            // resultBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(258, 210);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(230, 20);
-            this.textBox2.TabIndex = 3;
+            this.resultBox.Location = new System.Drawing.Point(344, 258);
+            this.resultBox.Margin = new System.Windows.Forms.Padding(4);
+            this.resultBox.Name = "resultBox";
+            this.resultBox.Size = new System.Drawing.Size(305, 22);
+            this.resultBox.TabIndex = 3;
             // 
-            // FuncUserControl1
+            // instructionsLabel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.instructionsLabel.AutoSize = true;
+            this.instructionsLabel.Location = new System.Drawing.Point(65, 158);
+            this.instructionsLabel.Name = "instructionsLabel";
+            this.instructionsLabel.Size = new System.Drawing.Size(256, 48);
+            this.instructionsLabel.TabIndex = 4;
+            this.instructionsLabel.Text = "Please enter your quadratic equation here\r\n\r\nEx. 1x^2+5x+6=0";
+            // 
+            // FuncUserControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "FuncUserControl1";
-            this.Size = new System.Drawing.Size(816, 419);
+            this.Controls.Add(this.instructionsLabel);
+            this.Controls.Add(this.resultBox);
+            this.Controls.Add(this.resolveBtn);
+            this.Controls.Add(this.inputBox);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "FuncUserControl";
+            this.Size = new System.Drawing.Size(1088, 516);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,8 +89,9 @@ namespace WindowsFormsApp3__matrix_calculator_
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox inputBox;
+        private System.Windows.Forms.Button resolveBtn;
+        private System.Windows.Forms.TextBox resultBox;
+        private System.Windows.Forms.Label instructionsLabel;
     }
 }
