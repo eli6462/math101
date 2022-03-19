@@ -80,7 +80,7 @@ namespace WindowsFormsApp3__matrix_calculator_
             // btnAddMatrixes
             // 
             this.btnAddMatrixes.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddMatrixes.Location = new System.Drawing.Point(260, 93);
+            this.btnAddMatrixes.Location = new System.Drawing.Point(277, 87);
             this.btnAddMatrixes.Name = "btnAddMatrixes";
             this.btnAddMatrixes.Size = new System.Drawing.Size(30, 30);
             this.btnAddMatrixes.TabIndex = 48;
@@ -345,7 +345,7 @@ namespace WindowsFormsApp3__matrix_calculator_
             // btnSubMatrixes
             // 
             this.btnSubMatrixes.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubMatrixes.Location = new System.Drawing.Point(296, 93);
+            this.btnSubMatrixes.Location = new System.Drawing.Point(277, 121);
             this.btnSubMatrixes.Name = "btnSubMatrixes";
             this.btnSubMatrixes.Size = new System.Drawing.Size(30, 30);
             this.btnSubMatrixes.TabIndex = 51;
@@ -356,7 +356,7 @@ namespace WindowsFormsApp3__matrix_calculator_
             // btnMultiMatrixes
             // 
             this.btnMultiMatrixes.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiMatrixes.Location = new System.Drawing.Point(260, 129);
+            this.btnMultiMatrixes.Location = new System.Drawing.Point(277, 155);
             this.btnMultiMatrixes.Name = "btnMultiMatrixes";
             this.btnMultiMatrixes.Size = new System.Drawing.Size(30, 30);
             this.btnMultiMatrixes.TabIndex = 52;
