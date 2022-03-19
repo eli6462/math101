@@ -23,7 +23,10 @@ namespace WindowsFormsApp3__matrix_calculator_
         private void button1_Click(object sender, EventArgs e)
         {            
             initMatrix(groupBox1, matrixA);
-            initMatrix(groupBox2, matrixB);            
+            //initMatrix(groupBox2, matrixB);
+            resultMatrix = matrixA;
+            printResultMatrix(resultMatrix);
+
 
             //test print
 
@@ -94,6 +97,28 @@ namespace WindowsFormsApp3__matrix_calculator_
                 string message = "ERROR in function \"choseGroupBox(GroupBox gbox)\",\n Entered parameter does not match.";
                 MessageBox.Show(message);
             }
+        }
+
+        private void printResultMatrix (int[,] arr2d)
+        {
+            for (int i = 0; i < arr2d.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr2d.GetLength(1); j++)
+                {
+                    foreach (Control c in groupBox3.Controls)
+                    {
+                        if (c is TextBox)
+                        { 
+                            if (c.Name == ("txtResultMatrix" + (i + 1).ToString() + "_" + (j + 1).ToString()))
+                            {
+                                c.Text = arr2d[i, j].ToString();
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
         }
 
 
